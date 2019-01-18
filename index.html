@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="Css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="Css/estilo.css">
+    <script src="Scripts/bootstrap.min.js"></script>
+    <title>Proyecto sin nombre</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <fieldset class="input-fields">
+            <ul class="clearfix ">
+                <li class="input-fields__email">
+                    <label for="signin.email">Email address</label>
+                    <span class="field-validation-valid" data-valmsg-for="signin.email" data-valmsg-replace="true"></span>
+                    <input autocapitalize="off" autofocus="true" id="signin_email" maxlength="100" name="signin.email"
+                        placeholder="" tabindex="1" type="email" value="">
+                </li>
+                <li class="input-fields__password">
+                    <label for="signin.password">Password</label>
+                    <span class="field-validation-valid" data-valmsg-for="signin.password" data-valmsg-replace="true"></span>
+                    <input autocomplete="off" id="signin_password" maxlength="100" name="signin.password" placeholder=""
+                        tabindex="2" type="password">
+                </li>
+                <li class="auth-submit">
+                    <div class="input-fields__password-reset">
+                        <a class="password-reset__link" href="/forgotpassword" tabindex="4">Forgot your password?</a>
+                    </div>
+
+                    <button type="submit" id="submit-button" class="btn btn--primary primary" tabindex="3">Sign in</button>
+                </li>
+            </ul>
+        </fieldset>
+    </div>
+</body>
+
+</html>
